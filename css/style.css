@@ -1,0 +1,260 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+body {
+    font-family: 'Red Hat Display', sans-serif;
+    background-color: hsl(226, 43%, 10%);
+    min-height: 100vh;
+}
+
+main {
+    width: 100%;
+    overflow: hidden;
+    padding: 12% 25%;
+}
+
+.first-box {
+    width: 140px;
+    height: 300px;
+    background-color: hsl(235, 46%, 20%);
+    border-radius: 6px;
+    margin-bottom: 30px;
+    float: left;
+    /* padding: 10px; */
+
+}
+
+.first-box .first-child {
+    background-color: hsl(235, 45%, 61%);
+    width: 140px;
+    height: 200px;
+    border-radius: 6px;
+    padding: 20px 20px 20px 10px;
+}
+
+.first-child img {
+    width: 50px;
+    border: 2px solid white;
+    border-radius: 30px;
+    margin-bottom: 20px;
+}
+
+.report {
+    font-size: 10px;
+    color: hsl(236, 100%, 87%);
+}
+
+.name {
+    width: 80px;
+    color: hsl(236, 100%, 87%);
+    font-size: 20px;
+}
+
+.nav ul li a {
+    color: hsl(235, 45%, 61%);
+    text-decoration: none;
+    font-size: 10px;
+    font-weight: 700;
+}
+
+.nav ul {
+    padding-left: 10px;
+}
+
+.nav ul li a:hover, .nav ul li a:active {
+    color: hsl(236, 100%, 87%);
+}
+
+.sec-box {
+    background-color: hsl(15, 100%, 70%);
+    width: 140px;
+    height: 120px;
+    padding-top: 20px;
+    border-radius: 10px;
+    margin-right: 20px;
+    background-image: url(../images/icon-work.svg);
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: 40px;
+}
+
+
+.sec-box-child {
+    background-color: hsl(235, 46%, 20%);
+    width: 140px;
+    height: 120px;
+    border-radius: 10px;
+    padding: 10px 10px 0 10px;
+
+}
+
+.ellipsis {
+    color: hsl(236, 100%, 87%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.ellipsis img {
+    width: 10px;
+}
+
+.work {
+    font-size: 10px;
+    font-weight: 700;
+}
+
+.time {
+    font-size: 30px;
+    color: hsl(236, 100%, 87%);
+    padding-bottom: 10px;
+}
+
+.day {
+    color: hsl(236, 100%, 87%);
+    font-size: 10px;
+}
+
+.box-sizing {
+    display: flex;
+    margin-bottom: 30px;
+    padding-left: 20px;
+}
+
+.box-sizing-two {
+    display: flex;
+    padding-left: 20px;
+}
+
+
+
+
+.third-box {
+    background-color: hsl(195, 74%, 62%);
+    width: 140px;
+    height: 120px;
+    padding-top: 20px;
+    border-radius: 10px;
+    margin-right: 20px;
+    background-image: url(../images/icon-play.svg);
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: 40px;
+}
+
+
+.third-box-child {
+    background-color: hsl(235, 46%, 20%);
+    width: 140px;
+    height: 120px;
+    border-radius: 10px;
+    padding: 10px 10px 0 10px;
+}
+
+
+.forth-box {
+    background-color: hsl(348, 100%, 68%);
+    width: 140px;
+    height: 120px;
+    padding-top: 20px;
+    border-radius: 10px;
+    background-image: url(../images/icon-study.svg);
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: 40px;
+}
+
+
+.forth-box-child {
+    background-color: hsl(235, 46%, 20%);
+    width: 140px;
+    height: 120px;
+    border-radius: 10px;
+    padding: 10px 10px 0 10px;
+}
+
+.fifth-box {
+    background-color: hsl(145, 58%, 55%);
+    width: 140px;
+    height: 130px;
+    padding-top: 20px;
+    border-radius: 10px;
+    margin-right: 20px;
+    background-image: url(../images/icon-exercise.svg);
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: 40px;
+}
+
+
+.fifth-box-child {
+    background-color: hsl(235, 46%, 20%);
+    width: 140px;
+    height: 130px;
+    border-radius: 10px;
+    padding: 10px 10px 0 10px;
+}
+
+.sixth-box {
+    background-color: hsl(264, 64%, 52%);
+    width: 140px;
+    height: 130px;
+    padding-top: 20px;
+    border-radius: 10px;
+    margin-right: 20px;
+    background-image: url(../images/icon-social.svg);
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: 40px;
+}
+
+
+.sixth-box-child {
+    background-color: hsl(235, 46%, 20%);
+    width: 140px;
+    height: 130px;
+    border-radius: 10px;
+    padding: 10px 10px 0 10px;
+}
+
+.seventh-box {
+    background-color: hsl(43, 84%, 65%);
+    width: 140px;
+    height: 130px;
+    padding-top: 20px;
+    border-radius: 10px;
+    background-image: url(../images/icon-self-care.svg);
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: 40px;
+}
+
+
+.seventh-box-child {
+    background-color: hsl(235, 46%, 20%);
+    width: 140px;
+    height: 130px;
+    border-radius: 10px;
+    padding: 10px 10px 0 10px;
+}
+
+
+
+
+/* - Blue: hsl(246, 80%, 60%)
+ - Light red (work): hsl(15, 100%, 70%) 
+- Soft blue (play): hsl(195, 74%, 62%)
+ - Light red (study): hsl(348, 100%, 68%) 
+- Lime green (exercise): hsl(145, 58%, 55%) 
+- Violet (social): hsl(264, 64%, 52%) 
+- Soft orange (self care): hsl(43, 84%, 65%) 
+### Neutral 
+- Very dark blue: hsl(226, 43%, 10%)
+ - Dark blue: hsl(235, 46%, 20%) 
+- Desaturated blue: hsl(235, 45%, 61%) 
+- Pale Blue: hsl(236, 100%, 87%) */
